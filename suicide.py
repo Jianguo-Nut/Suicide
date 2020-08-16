@@ -2,7 +2,7 @@
 
 def on_user_info(server,info):
     if info.content == '!!kill' and info.is_player:
-        server.execute('kill' + info.player)
+        server.execute('kill ' + info.player)
 
 
 
